@@ -1,6 +1,6 @@
-class CreateDailies < ActiveRecord::Migration[5.2]
+class CreateDiaries < ActiveRecord::Migration[5.2]
   def change
-    create_table :dailies do |t|
+    create_table :diaries do |t|
       t.string :title
       t.text :body
 
