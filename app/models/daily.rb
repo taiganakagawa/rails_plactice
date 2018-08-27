@@ -1,2 +1,0 @@
-class Daily < ApplicationRecord
-end
