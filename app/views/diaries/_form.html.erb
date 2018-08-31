@@ -21,6 +21,13 @@
     <%= form.text_area :body %>
   </div>
 
+  <div class="field">
+    <%= form.label :emotion %>
+    <label><%= form.radio_button :emotion, "喜" %>喜</label>
+    <label><%= form.radio_button :emotion, "怒" %>怒</label>
+    <label><%= form.radio_button :emotion, "哀" %>哀</label>
+    <label><%= form.radio_button :emotion, "楽" %>楽</label>
+
   <div class="actions">
     <%= form.submit %>
   </div>

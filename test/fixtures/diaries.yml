@@ -4,8 +4,10 @@ one:
   id: 1
   title: 今日は終日休暇
   body: 今日は仕事を休んで、公園で読書をした。
+  emotion: 喜
 
 two:
   id: 2
   title: 今日の天気
   body: 今日は雨が降った後、虹が出ていて綺麗だった
+  emotion: 楽
